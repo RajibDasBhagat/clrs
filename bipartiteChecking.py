@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
-
-
 #BFS implemention for bipartite checking
 '''
 input format:
@@ -79,7 +76,6 @@ def bfs(graph, source):
                         
     return True                     
                 
-
 if __name__== "__main__":  
     
     #to read from input file
@@ -93,11 +89,3 @@ if __name__== "__main__":
     
     #write output  
     outputFile(str(solutionPath))
-    
-
-
-# In[ ]:
-
-
-
-
