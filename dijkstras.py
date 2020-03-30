@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[12]:
-
-
 #Dijkstras algorithm (BFS implemention)
 #find the shortest path from source to each other nodes and calculate the distance
 #non-neagtive weights
@@ -83,6 +80,7 @@ def dijkstras(graph,w,source):
         #extract the min heap
         u = heapq.heappop(queue)
 
+        #relax
         for v in range(nodes):
             if d[v] > d[u] + w[u][v]:
                 d[v] = d[u] + w[u][v]
@@ -107,20 +105,6 @@ if __name__== "__main__":
     #write output the path 
     outputFile(str(solution))
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
