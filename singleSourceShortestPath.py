@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
-
-
 #Single source shortest path for unweighted graph (BFS implemention)
 #to find path between a given source and a given destination 
 '''
@@ -108,16 +105,5 @@ if __name__== "__main__":
     
     #calculate the distance from source to destination
     calculateDistance(solutionPath, destination)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
