@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[12]:
-
-
 #BFS implemention
 from collections import defaultdict
 '''
@@ -106,10 +103,3 @@ if __name__== "__main__":
     
     #write output the path 
     outputFile(str(solutionPath))
-
-
-# In[ ]:
-
-
-
-
