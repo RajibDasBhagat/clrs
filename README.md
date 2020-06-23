@@ -1,2 +1,2 @@
 # codes
-Few codes written in python as described in CLRS
+Few codes written in python note-book and CPP as described in CLRS
